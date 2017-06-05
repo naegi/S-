@@ -15,7 +15,7 @@ module Vals (
     Globals,
     showType
             ) where
-import Control.Monad.State.Strict
+import Control.Monad.State
 import Control.Applicative
 import Text.Parsec (ParseError)
 import Control.Monad.Except
